@@ -40,7 +40,17 @@ This project demonstrates how to deploy a machine learning model using Flask. Sp
    Send a POST request to http://localhost:5000/predict with JSON data containing the features for prediction. Example:
    
   ```bash
-  python app.py
+  {
+    "Daily Time Spent on Site": value1,
+    "Age": value2,
+    "Area Income": value3,
+    "Daily Internet Usage": value4,
+    "Ad Topic Line": "value5",
+    "City": "value6",
+    "Gender": "value7",
+    "Country": "value8",
+    "Timestamp": "value9"
+}
 ```
 
 3. Response:
