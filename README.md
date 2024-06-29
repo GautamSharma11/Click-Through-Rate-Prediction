@@ -46,9 +46,9 @@ This project demonstrates how to deploy a machine learning model using Flask. Sp
 3. Response:
    The server will respond with a JSON object containing the prediction:
   ```bash
-   {
+  {
     "prediction": 1 # 0 or 1
-    }
+  }
 ```
 
 Note: Make sure to change directories used in click-through-rate-prediction.ipynb according to your local directories if you want to run it.
