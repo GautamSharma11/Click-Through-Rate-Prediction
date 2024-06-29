@@ -64,8 +64,13 @@ This project demonstrates how to deploy a machine learning model using Flask. Sp
 Note: Make sure to change directories used in click-through-rate-prediction.ipynb according to your local directories if you want to run it.
 
 app.py: Flask application for serving predictions.
+
 preprocessor.pkl: Preprocessor serialized using cloudpickle.
+
 clickthroughmodel.pkl: XGBoost model serialized using joblib.
+
 requirements.txt: List of Python dependencies.
+
 data.zip: contains the dataset this model was trained on.
+
 link: https://www.kaggle.com/datasets/swekerr/click-through-rate-prediction
